@@ -86,7 +86,7 @@ def main():
                 label='centroids')
     plt.legend(scatterpoints=1)
     plt.grid()
+    
     plt.show()
-
 if __name__=='__main__':
     main()
