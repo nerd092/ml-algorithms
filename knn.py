@@ -1,7 +1,7 @@
 import numpy as np
         
 def distance(x,y,p):
-    """Return the l_p distance """
+    """Returns the l_p distance """
     return sum(np.abs(x-y)**p)**(1/p)
 
 
