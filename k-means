@@ -76,7 +76,7 @@ def main():
                 label='cluster 2')
     plt.scatter(X[y_km == 2, 0],
                 X[y_km == 2, 1],
-                s=50, c='lightblue',
+                s=50,
                 marker='v', edgecolor='black',
                 label='cluster 3')
     plt.scatter(km.cluster_centers_[:,0],
