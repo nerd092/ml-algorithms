@@ -3,7 +3,7 @@ import numpy as np
 
 def dist(X,x):
     """Calculate the Euclidean distance between 
-    a sample and the k centroids"""
+    a sample and the k centroid"""
     return [np.linalg.norm(x-x1) for x1 in X]
 
 class KMeans(object):
